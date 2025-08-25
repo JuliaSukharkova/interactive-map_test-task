@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.selected {
+  border: 1px solid #87ceeb;
+  background-color: #d3f2fe;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1d5a72;
+}

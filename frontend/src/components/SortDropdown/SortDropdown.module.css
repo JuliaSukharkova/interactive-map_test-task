@@ -1,0 +1,18 @@
+.dropdown {
+  margin: 20px 0;
+}
+.label {
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  outline: "none";
+}
+.select:focus-visible{
+  outline: none;
+}
